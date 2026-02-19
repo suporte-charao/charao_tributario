@@ -40,7 +40,7 @@ const Hero = () => {
 
         {/* Event info bar */}
         <div className="flex items-center bg-gold/[0.08] border border-gold/30 mb-10 flex-wrap opacity-0 animate-fade-up delay-700 w-full max-w-[700px]">
-          <EventInfoItem icon="📅" label="Data" value="25 de o de 2026" />
+          <EventInfoItem icon="📅" label="Data" value="25 de fevereiro de 2026" />
           <div className="w-px h-12 bg-gold/20 flex-shrink-0 hidden sm:block" />
           <EventInfoItem icon="🕘" label="Horário" value="9h (horário de Manaus)" />
           <div className="w-px h-12 bg-gold/20 flex-shrink-0 hidden sm:block" />
