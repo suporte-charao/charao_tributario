@@ -5,7 +5,7 @@ const Footer = () => {
         Conferência LC 227/2026 – Reforma Tributária:{" "}
         <strong className="text-gold">A Nova Arquitetura Financeira</strong>
       </p>
-      <p className="mt-1">Todos os direitos reservados.</p>
+      <p className="mt-1">Todos os direitos reservados à Charão Tributário.</p>
     </footer>
   );
 };

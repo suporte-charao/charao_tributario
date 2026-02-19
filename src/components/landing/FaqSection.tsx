@@ -11,11 +11,7 @@ const faqs = [
   },
   {
     q: "A conferência é ao vivo. E se eu não puder participar no horário?",
-    a: "Recomendamos fortemente a participação ao vivo, pois é ali que acontece a interação direta com os especialistas e as perguntas em tempo real. Reserve o dia 26/02 às 9h (horário de Manaus) na sua agenda agora.",
-  },
-  {
-    q: "Vale a pena por R$ 47?",
-    a: "Uma única multa por descumprimento das novas regras pode custar muito mais do que isso. Uma decisão errada sobre créditos de ICMS, também. A conferência existe para que você não precise aprender errando. Por R$ 47, você tem acesso a 18 anos de experiência prática do Time Charão na região norte — aplicada diretamente à LC 227/2026.",
+    a: "Recomendamos fortemente a participação ao vivo, pois é ali que acontece a interação direta com os especialistas e as perguntas em tempo real. Reserve o dia 25/02 às 9h (horário de Manaus) na sua agenda agora.",
   },
   {
     q: "Por que as vagas são limitadas?",
@@ -77,7 +73,7 @@ const FaqSection = () => {
             href="#inscricao"
             className="inline-block mt-5 bg-gold text-ink font-semibold text-[0.95rem] px-10 py-4 hover:bg-gold-light transition-colors animate-bounce-cta"
           >
-            Quero minha vaga por R$ 47 →
+            Quero minha vaga Gratuita →
           </a>
         </div>
       </div>

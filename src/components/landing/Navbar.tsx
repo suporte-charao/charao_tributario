@@ -7,10 +7,12 @@ const Navbar = () => {
         className="h-10 object-contain"
       />
       <a
-        href="#inscricao"
+        href="https://materiais.grupocharao.com.br/formulario-mentoria-da-rt-a-nova-arquitetura-financeira"
+        target="_blank"
+        rel="noopener noreferrer"
         className="bg-gold text-ink text-[0.78rem] font-semibold px-5 py-2 tracking-wide hover:bg-gold-light transition-colors animate-bounce-cta"
       >
-        Garantir Vaga →
+        Garantir Vaga Gratuita →
       </a>
     </nav>
   );

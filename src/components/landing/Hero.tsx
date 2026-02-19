@@ -17,7 +17,7 @@ const Hero = () => {
         {/* Badge */}
         <div className="inline-flex items-center gap-2 bg-gold/15 border border-gold/40 text-gold-light font-mono-dm text-[0.7rem] tracking-[0.15em] uppercase px-4 py-1.5 mb-10 opacity-0 animate-fade-up">
           <span className="w-1.5 h-1.5 bg-gold rounded-full animate-pulse-dot" />
-          Conferencia da reforma tributária 2026
+          Conferência da reforma tributária 2026
         </div>
 
         {/* Law reference */}
@@ -40,20 +40,24 @@ const Hero = () => {
 
         {/* Event info bar */}
         <div className="flex items-center bg-gold/[0.08] border border-gold/30 mb-10 flex-wrap opacity-0 animate-fade-up delay-700 w-full max-w-[700px]">
-          <EventInfoItem icon="📅" label="Data" value="26 de fevereiro de 2026" />
+          <EventInfoItem icon="📅" label="Data" value="25git add . de fevereiro de 2026" />
           <div className="w-px h-12 bg-gold/20 flex-shrink-0 hidden sm:block" />
           <EventInfoItem icon="🕘" label="Horário" value="9h (horário de Manaus)" />
           <div className="w-px h-12 bg-gold/20 flex-shrink-0 hidden sm:block" />
           <EventInfoItem icon="⏱️" label="Formato" value="Encontro online e ao vivo" />
+          <div className="w-px h-12 bg-gold/20 flex-shrink-0 hidden sm:block" />
+          <EventInfoItem icon="✅" label="Inscrição" value="Gratuita" />
         </div>
 
         {/* CTA */}
         <div className="flex gap-4 flex-wrap justify-center opacity-0 animate-fade-up delay-800">
           <a
-            href="#inscricao"
+            href="https://materiais.grupocharao.com.br/formulario-mentoria-da-rt-a-nova-arquitetura-financeira"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-gold text-ink font-semibold text-[0.95rem] tracking-wide px-10 py-4 hover:bg-gold-light transition-all animate-bounce-cta"
           >
-            Quero minha vaga
+            Quero minha vaga gratuita!
           </a>
         </div>
 
